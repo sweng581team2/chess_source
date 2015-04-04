@@ -1,6 +1,7 @@
 package jchess.core.tests;
 
 import jchess.core.*;
+import jchess.core.Player.playerTypes;
 
 public class BoardSetup 
 {
