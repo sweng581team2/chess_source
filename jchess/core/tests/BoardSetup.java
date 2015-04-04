@@ -12,6 +12,12 @@ public class BoardSetup
 		getChessboard().setPieces("", getWhitePlayer(), getBlackPlayer());
 	}
 	
+	public BoardSetup(Game game)
+	{
+		m_game = game;		
+		getChessboard().setPieces("", getWhitePlayer(), getBlackPlayer());
+	}
+	
 	public Chessboard getChessboard()
 	{
 		return m_game.getChessboard();
